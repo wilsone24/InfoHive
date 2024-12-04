@@ -116,10 +116,13 @@ For a full list of dependencies, check the `package.json` file.
 ## 🎥 Demonstration
 
 For a complete demonstration of InfoHive, watch the following video:
-### Watch a demo video:
 <div align="center">
   <a href="https://www.youtube.com/watch?v=RqlDXnIc27o" target="_blank">
-    <img src="https://img.youtube.com/vi/RqlDXnIc27o/0.jpg" alt="Watch the demo video" width="80%">
+    <img 
+      src="https://img.youtube.com/vi/RqlDXnIc27o/0.jpg" 
+      alt="Watch the demo video" 
+      style="width: 80%; max-width: 640px; aspect-ratio: 16/9; border: 1px solid #ccc; border-radius: 8px;"
+    >
   </a>
 </div>
 
