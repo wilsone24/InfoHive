@@ -49,7 +49,7 @@ InfoHive includes several pages to help users interact with and manage content e
 - **npm**: Install using Node.js (usually comes with it)
 
 ## 📁 Project Structure
-
+```
 infohive/
 ├── frontend/                    # Frontend files (HTML, CSS)
 │   ├── static/                  # Static files for frontend
@@ -77,7 +77,7 @@ infohive/
 ├── database/                    # MySQL database setup scripts
 ├── package.json                 # Project dependencies
 └── README.md                    # Project documentation
-
+```
 
 ## 🔧 Dependencies
 
