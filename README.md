@@ -121,7 +121,7 @@ For a complete demonstration of InfoHive, watch the following video:
     <img 
       src="https://img.youtube.com/vi/RqlDXnIc27o/0.jpg" 
       alt="Watch the demo video" 
-      style="width: 80%; max-width: 640px; aspect-ratio: 16/9; border: 1px solid #ccc; border-radius: 8px;"
+      style="width: 40%; max-width: 320px; aspect-ratio: 16/9; border: 1px solid #ccc; border-radius: 8px;"
     >
   </a>
 </div>
