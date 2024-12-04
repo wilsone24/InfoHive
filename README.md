@@ -30,8 +30,16 @@ A powerful content management platform designed to improve productivity and proj
 InfoHive includes several pages to help users interact with and manage content effectively:
 
 1. **Dashboard Page**: Allows administrators to view, manage, and assign roles to the uploaded content.
-2. **Content Management Page**: Users can view content assigned to them based on their roles and permissions.
-3. **Subscription Page**: Manage monthly subscriptions for each user in the organization.
+2. **Content Management Page**: Users can view the content assigned to them based on their roles and permissions.
+3. **Subscription Page**: Manages monthly subscriptions for each user in the organization.
+4. **Create Content Page**: A page to create new content that will be assigned according to the organization's policies.
+5. **Login Page**: The login page for users to access the platform.
+6. **Register Page**: The registration page for new users to sign up on the platform.
+7. **Organizational Content Page**: A page for managing content at the organizational level.
+8. **Private Content Page**: A page to access private content based on the user's permissions.
+9. **Profile Page**: A page where users can manage their settings and personal details.
+10. **Public Content Page**: A page where users can access publicly available content on the platform.
+
 
 ## 🛠 Installation
 
