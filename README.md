@@ -37,10 +37,25 @@ InfoHive includes several pages to help users interact with and manage content e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/infohive.git
+   git clone https://github.com/wilsone24/infohive.git
+   ```
 
+2. Navigate to the project directory:
+   ```bash
+   cd infohive
+   ```
 
+3. Install the necessary dependencies for both frontend and backend:
+   ```bash
+   npm install
+   ```
 
+## 🖥 Usage
+
+1. Start the backend server:
+```bash
+npm run dev
+```
 
 ### Prerequisites
 
