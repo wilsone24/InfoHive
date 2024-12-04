@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "Debug",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}",
+      "internalConsoleOptions": "neverOpen",
+      "outputCapture": "std"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Release",
+      "request": "launch",
+      "command": "npm start",
+      "cwd": "${workspaceFolder}",
+      "internalConsoleOptions": "neverOpen",
+      "outputCapture": "std"
+    }
+  ]
+}

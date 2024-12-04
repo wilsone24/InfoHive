@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+
+  <body style="background-color: #f0f4f8">
+    <div
+      class="container"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      ">
+      <div class="card" style="width: 100%; max-width: 400px">
+        <h2
+          style="
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+          ">
+          Registro
+        </h2>
+
+        <form
+          id="register-form"
+          method="post"
+          action="/api/v1/auth/register"
+          style="display: flex; flex-direction: column; gap: 1.25rem">
+          <div>
+            <label
+              for="alias"
+              style="display: block; margin-bottom: 0.5rem; font-weight: 500"
+              >Alias</label
+            >
+            <input
+              type="text"
+              id="alias"
+              name="alias"
+              required
+              style="background-color: #f8fafc" />
+          </div>
+
+          <div>
+            <label
+              for="name"
+              style="display: block; margin-bottom: 0.5rem; font-weight: 500"
+              >Nombre Completo</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              style="background-color: #f8fafc" />
+          </div>
+
+          <div>
+            <label
+              for="email"
+              style="display: block; margin-bottom: 0.5rem; font-weight: 500"
+              >Correo Electrónico</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              style="background-color: #f8fafc" />
+          </div>
+
+          <div>
+            <label
+              for="password"
+              style="display: block; margin-bottom: 0.5rem; font-weight: 500"
+              >Contraseña</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              style="background-color: #f8fafc" />
+          </div>
+
+          <button
+            type="submit"
+            class="btn"
+            style="width: 100%; margin-top: 0.5rem">
+            Registrarse
+          </button>
+        </form>
+
+        <p style="text-align: center; margin-top: 1.5rem; color: var(--muted)">
+          ¿Ya tienes cuenta?
+          <a href="/auth/login" style="font-weight: 500">Inicia sesión aquí</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
